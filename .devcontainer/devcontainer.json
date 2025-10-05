@@ -1,6 +1,11 @@
 {
   "name": "ga2-0bc0ff",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "features": {
+      "ghcr.io/devcontainers/features/python:1": {}
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [

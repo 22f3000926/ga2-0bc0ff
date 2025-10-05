@@ -1,0 +1,4 @@
+# Use a minimal base image
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
+
+# The Python feature will install Python automatically
